@@ -1,6 +1,7 @@
-## Most JS Lesson Code From `egghead.io`
-
-This is the main repository that houses all the code examples from the lessons I have done on [egghead.io][1] around [mostjs][2]. Every lesson has its own branch that includes all the source code from the lesson, usually including additional bits to further expand on the topic at hand.
+## 0x00 Create Streams From Single Values With `Most.js`
+Most provides many means for creating streams, the simplest of which is the `of`
+function and it's alias `just`. In this lesson, we demonstrate the use of `of` to lift a single value
+into a stream. We also show off the `just` alias of `of` as well as a common method for currying a function.
 
 ### Requirements
 These code examples run on a POSIX based system (Linux, OSX, etc) in a [nodejs][3] environment requiring a version greater than `4.2.x` to be run. If you *have* to work in another environment, each lesson also has a "plunk" hosted on [Plunker][4] that can be run in browser.
