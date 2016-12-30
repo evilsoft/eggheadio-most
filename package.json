@@ -1,0 +1,32 @@
+{
+  "name": "eggheadio-most--0x01-create-iterable-streams",
+  "version": "0.0.1",
+  "description": "0x01 Create Streams From Iterables With Most.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -q -x 'clear && node'",
+    "setup": "rm -rf node_modules && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilsoft/eggheadio-most.git"
+  },
+  "keywords": [
+    "most",
+    "eggheadio",
+    "functional",
+    "javascript"
+  ],
+  "author": "Ian Hofmann-Hicks (evil)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilsoft/eggheadio-most/issues"
+  },
+  "homepage": "https://github.com/evilsoft/eggheadio-most#readme",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "most": "^1.1.1",
+    "nodemon": "^1.11.0"
+  }
+}
