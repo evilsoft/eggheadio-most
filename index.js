@@ -42,6 +42,27 @@ function bonusBits() {
   from(string)
     .take(3)
     .observe(logger.bind(null, 'from string-take-3'))
+
+  const alphabet = {
+    [Symbol.iterator]: function() {
+      let start = 97
+      let end = 122
+      let index = start
+
+      return {
+        next: function() {
+          return {
+            value: String.fromCharCode(index > end ? index = start : index++),
+            done: false
+          }
+        }
+      }
+    }
+  }
+
+  from(alphabet)
+    .take(10)
+    .observe(logger.bind(null, 'alphabet'))
 }
 
 // extra credit: run `bonusBits` outside of `setTimeout`,
