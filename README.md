@@ -1,4 +1,9 @@
 ## 0x01 Create Streams From Iterables With `Most.js`
+One of the more powerful functions for creating streams in MostJS is the `from` function.
+
+In this lesson, we use `from` to create streams from various Javascript Iterables, take a look at how to throw generator functions into the mix and, for good measure, take a sneak peek at how we can limit our streams using a function called `take`.
+
+As a bonus, we see what it looks like to use `Function.prototype.bind` for a quick and dirty way to partially apply arguments to a function.
 
 
 The lesson on egghead can be found [here][6]
@@ -36,4 +41,4 @@ $ npm start
 [4]: https://plnkr.co/
 
 [5]: https://embed.plnkr.co/M1fDtVQIqcBisPNVFN6Q/?show=JS
-[6]: https://egghead.io/lessons/
+[6]: https://egghead.io/lessons/javascript-create-streams-from-iterables-with-most-js
