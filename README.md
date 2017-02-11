@@ -7,6 +7,7 @@ This is the main repository that houses all the code examples from the lessons I
 | Title | Egghead Lesson | Plunker | Branch |
 |-------|----------------|---------|--------|
 | Create Streams From Single Values | [video lesson][5] | [plunk][6] | [github][7] |
+| Create Streams From Iterables | [video lesson][8] | [plunk][9] | [github][10] |
 
 ### Requirements
 These code examples run on a POSIX based system (Linux, OSX, etc) in a [nodejs][3] environment requiring a version greater than `4.2.x` to be run. If you *have* to work in another environment, each lesson also has a "plunk" hosted on [Plunker][4] that can be run in browser.
@@ -40,3 +41,7 @@ $ npm start
 [5]: https://egghead.io/lessons/javascript-create-streams-from-single-values-with-most-js
 [6]: https://embed.plnkr.co/YpYvHI2vbHofm9wrfORU/?show=JS
 [7]: https://github.com/evilsoft/eggheadio-most/tree/0x00-create-single-value-streams
+
+[8]: https://egghead.io/lessons/javascript-create-streams-from-iterables-with-most-js
+[9]: https://embed.plnkr.co/M1fDtVQIqcBisPNVFN6Q/?show=JS
+[10]: https://github.com/evilsoft/eggheadio-most/tree/0x01-create-iterable-streams
